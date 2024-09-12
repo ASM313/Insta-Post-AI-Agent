@@ -35,3 +35,4 @@ def create_image_with_quote(input_text_file, output_image_file, image_size=(1080
     # Save the image to a file
     image.save(output_image_file)
 
+def 

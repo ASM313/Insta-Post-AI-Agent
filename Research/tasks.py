@@ -19,7 +19,7 @@ research_task = Task(
 # Writing task with language model configuration
 write_task = Task(
   description=(
-    "Compose an insightful article in 7 bullet points on {topic}."
+    "Compose an insightful article in 5 bullet points on {topic}."
     "Focus on the latest trends and how it's impacting the industry."
     "This article should be easy to understand, engaging, and positive."
   ),
