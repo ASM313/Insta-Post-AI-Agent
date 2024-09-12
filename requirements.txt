@@ -1,0 +1,6 @@
+crewai
+crewai-tools
+langchain-community
+langchain-google-genai
+python-dotenv
+pillow
