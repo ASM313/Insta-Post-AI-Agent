@@ -21,7 +21,7 @@ researcher=Agent(
     memory=True,
     backstory=(
         "Driven by curiosity, you're at the forefront of"
-        "innovation, eager to explore and share knowledge that get high reach on linkedin."
+        "innovation, eager to explore and share knowledge that get high reach on social media."
     ),
     tools=[tool],
     llm=llm,
@@ -29,11 +29,11 @@ researcher=Agent(
 
 )
 
-## create a writer agent with custom tools responsible in writing linkedin post
+## create a writer agent with custom tools responsible in writing post
 
 post_writer = Agent(
   role='Writer',
-  goal='Create a beautiful and eye catching linkedin post on {topic}',
+  goal='Create a beautiful and eye catching instagram post on {topic}',
   verbose=True,
   memory=True,
   backstory=(
